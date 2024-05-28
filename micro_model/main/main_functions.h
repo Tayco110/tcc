@@ -14,6 +14,7 @@
 
 #include "model.h"
 #include "string.h"
+#include "math.h"
 
 // Expose a C friendly interface for main functions.
 #ifdef __cplusplus
@@ -21,9 +22,7 @@ extern "C" {
 #endif
 
 void model_setup();
-
 void inferences();
-
 void result();
 
 #ifdef __cplusplus

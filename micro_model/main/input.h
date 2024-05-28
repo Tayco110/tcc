@@ -4,7 +4,6 @@
 #include "stdlib.h"
 
 typedef struct InputData{
-  float massa;
   float Na;
   float K;
 };
