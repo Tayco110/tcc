@@ -23,7 +23,7 @@ extern "C" {
 
 void model_setup();
 void inferences();
-void result();
+void result(float desnormalized_Na, float desnormalized_K);
 
 #ifdef __cplusplus
 }

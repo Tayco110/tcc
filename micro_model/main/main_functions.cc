@@ -18,12 +18,10 @@ namespace {
   uint8_t tensor_arena[kTensorArenaSize];
 } // namespace
 
-
 //static function to normalize
 static float normalize(float input, float mean, float scale);
 //static function to reverse
 static float reverse(float input, float mean, float scale);
-
 
 void model_setup() {
   micro_model = tflite::GetModel(model);
@@ -32,9 +30,12 @@ void model_setup() {
     return;
   }
 
-  static tflite::MicroMutableOpResolver<1> resolver;
+  static tflite::MicroMutableOpResolver<3> resolver;
   if (resolver.AddFullyConnected() != kTfLiteOk) {
     MicroPrintf("Falha ao adicionar FullyConnected.");
+  }
+  if (resolver.AddRelu() != kTfLiteOk) {
+    MicroPrintf("Falha ao adicionar Relu.");
   }
 
   static tflite::MicroInterpreter static_interpreter(micro_model, resolver, tensor_arena, kTensorArenaSize);
@@ -48,24 +49,22 @@ void model_setup() {
 
   input = interpreter->input(0);
   output = interpreter->output(0);
-  MicroPrintf("Modelo configurado com sucesso.");
+  MicroPrintf("Modelo configurado com sucesso.\n");
 }
 
 void inferences() {
   for (size_t i = 0; i < num_of_inputs; i++) {
-    MicroPrintf("Processando entrada %d", i + 1);
-    
+
     // Copiando os dados de entrada para o tensor
     float* input_buffer = input->data.f;
     input_buffer[0] = normalize(inputs[i].Na, Na_mean, Na_scale);
     input_buffer[1] = normalize(inputs[i].K, K_mean, K_scale);
 
-    // MicroPrintf("Na normalizado: %f, K normalizado: %f", input_buffer[0], input_buffer[1]);
-    result();
+    result(inputs[i].Na, inputs[i].K);
   }
 }
 
-void result() {
+void result(float desnormalized_Na, float desnormalized_K) {
   float cl_output;
 
   if (interpreter->Invoke() != kTfLiteOk) {
@@ -74,7 +73,7 @@ void result() {
   }
 
   cl_output = reverse(output->data.f[0], Cl_mean, Cl_scale);
-  MicroPrintf("Valor predito de Cl: %f", cl_output);
+  MicroPrintf("Na: %.2f, K: %.2f, Cl: %.2f", desnormalized_Na, desnormalized_K, cl_output);
   vTaskDelay(3000 / portTICK_PERIOD_MS);
 }
 
