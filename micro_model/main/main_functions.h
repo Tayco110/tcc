@@ -23,7 +23,7 @@ extern "C" {
 
 void model_setup();
 void inferences();
-void result();
+float result();
 
 #ifdef __cplusplus
 }

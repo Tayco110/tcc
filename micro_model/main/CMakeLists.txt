@@ -5,5 +5,5 @@ idf_component_register(
         "model.cc"
         "input.cc"
 
-    PRIV_REQUIRES spi_flash
+    PRIV_REQUIRES spi_flash esp_timer heap esp_system
     INCLUDE_DIRS ".")
