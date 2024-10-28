@@ -1,0 +1,42 @@
+Inteiro completo:
+  Média do Tempo de Inferência: 0.0006 segundos
+  Mediana do Tempo de Inferência: 0.0006 segundos
+  Desvio Padrão: 0.0001 segundos
+  Máximo: 0.0010 segundos
+  Mínimo: 0.0004 segundos
+
+Apenas pesos:
+  Média do Tempo de Inferência: 0.0005 segundos
+  Mediana do Tempo de Inferência: 0.0005 segundos
+  Desvio Padrão: 0.0003 segundos
+  Máximo: 0.0032 segundos
+  Mínimo: 0.0003 segundos
+
+Faixa dinâmica:
+  Média do Tempo de Inferência: 0.0003 segundos
+  Mediana do Tempo de Inferência: 0.0003 segundos
+  Desvio Padrão: 0.0001 segundos
+  Máximo: 0.0006 segundos
+  Mínimo: 0.0003 segundos
+
+Float 16:
+  Média do Tempo de Inferência: 0.0004 segundos
+  Mediana do Tempo de Inferência: 0.0003 segundos
+  Desvio Padrão: 0.0001 segundos
+  Máximo: 0.0005 segundos
+  Mínimo: 0.0003 segundos
+
+Float 32:
+  Média do Tempo de Inferência: 0.0005 segundos
+  Mediana do Tempo de Inferência: 0.0004 segundos
+  Desvio Padrão: 0.0004 segundos
+  Máximo: 0.0048 segundos
+  Mínimo: 0.0003 segundos
+
+Keras:
+  Média do Tempo de Inferência: 0.0496 segundos
+  Mediana do Tempo de Inferência: 0.0471 segundos
+  Desvio Padrão: 0.0160 segundos
+  Máximo: 0.1717 segundos
+  Mínimo: 0.0324 segundos
+

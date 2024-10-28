@@ -1,0 +1,54 @@
+Resultados para o modelo Inteiro completo:
+  MSE: 2961430121.94790
+  RMSE: 54419.02353
+  MAE: 50354.32365
+  R2: -34308094.66465
+  MEDAE: 49355.26667
+  MAPE: 3224.72756
+  Execution Time (s): 0.00094
+
+Resultados para o modelo Apenas pesos:
+  MSE: 2.78087
+  RMSE: 1.66759
+  MAE: 1.14554
+  R2: 0.96778
+  MEDAE: 0.70469
+  MAPE: 0.06412
+  Execution Time (s): 0.00151
+
+Resultados para o modelo Faixa dinâmica:
+  MSE: 2.78087
+  RMSE: 1.66759
+  MAE: 1.14554
+  R2: 0.96778
+  MEDAE: 0.70469
+  MAPE: 0.06412
+  Execution Time (s): 0.00231
+
+Resultados para o modelo Float 16:
+  MSE: 2.77471
+  RMSE: 1.66575
+  MAE: 1.14435
+  R2: 0.96786
+  MEDAE: 0.70452
+  MAPE: 0.06409
+  Execution Time (s): 0.00090
+
+Resultados para o modelo Float 32:
+  MSE: 2.78087
+  RMSE: 1.66759
+  MAE: 1.14554
+  R2: 0.96778
+  MEDAE: 0.70469
+  MAPE: 0.06412
+  Execution Time (s): 0.00072
+
+Resultados para o modelo Keras:
+  MSE: 2.78087
+  RMSE: 1.66759
+  MAE: 1.14554
+  R2: 0.96778
+  MEDAE: 0.70469
+  MAPE: 0.06412
+  Execution Time (s): 0.00105
+
