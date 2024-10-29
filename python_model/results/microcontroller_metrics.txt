@@ -1,0 +1,16 @@
+Métricas para as Saídas do Microcontrolador:
+MSE: 3.96343
+RMSE: 1.99084
+MAE: 1.14136
+R2: 0.95493
+MEDAE: 0.68500
+MAPE: 0.06978
+
+Estatísticas de Tempo de Inferência (em microsegundos):
+Média do Tempo de Inferência: 49.01 µs
+Mediana do Tempo de Inferência: 52.50 µs
+Desvio Padrão: 11.78 µs
+Tempo Mínimo: 41.00 µs
+Tempo Máximo: 197.00 µs
+Intervalo Interquartil (IQR): 10.00 µs
+90º Percentil: 54.00 µs

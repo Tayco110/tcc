@@ -5,7 +5,7 @@ Resultados para o modelo Inteiro completo:
   R2: -34308094.66465
   MEDAE: 49355.26667
   MAPE: 3224.72756
-  Execution Time (s): 0.00094
+  Execution Time (s): 0.00622
 
 Resultados para o modelo Apenas pesos:
   MSE: 2.78087
@@ -14,7 +14,7 @@ Resultados para o modelo Apenas pesos:
   R2: 0.96778
   MEDAE: 0.70469
   MAPE: 0.06412
-  Execution Time (s): 0.00151
+  Execution Time (s): 0.00129
 
 Resultados para o modelo Faixa dinâmica:
   MSE: 2.78087
@@ -23,7 +23,7 @@ Resultados para o modelo Faixa dinâmica:
   R2: 0.96778
   MEDAE: 0.70469
   MAPE: 0.06412
-  Execution Time (s): 0.00231
+  Execution Time (s): 0.00073
 
 Resultados para o modelo Float 16:
   MSE: 2.77471
@@ -32,7 +32,7 @@ Resultados para o modelo Float 16:
   R2: 0.96786
   MEDAE: 0.70452
   MAPE: 0.06409
-  Execution Time (s): 0.00090
+  Execution Time (s): 0.00378
 
 Resultados para o modelo Float 32:
   MSE: 2.78087
@@ -41,7 +41,7 @@ Resultados para o modelo Float 32:
   R2: 0.96778
   MEDAE: 0.70469
   MAPE: 0.06412
-  Execution Time (s): 0.00072
+  Execution Time (s): 0.00083
 
 Resultados para o modelo Keras:
   MSE: 2.78087
@@ -50,5 +50,5 @@ Resultados para o modelo Keras:
   R2: 0.96778
   MEDAE: 0.70469
   MAPE: 0.06412
-  Execution Time (s): 0.00105
+  Execution Time (s): 0.00080
 
