@@ -1,8 +1,9 @@
 #include "main_functions.h"
 #include "input.h"
-#include "esp_timer.h"  // Biblioteca necessária para medir o tempo
-#include "freertos/FreeRTOS.h"  // Biblioteca FreeRTOS
-#include "freertos/task.h"      // Para usar o FreeRTOS
+#include "esp_timer.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+
 #include <stdio.h>
 
 # define Na_mean 2.084
