@@ -2,14 +2,14 @@ Inteiro completo:
   Média do Tempo de Inferência: 0.0006 segundos
   Mediana do Tempo de Inferência: 0.0006 segundos
   Desvio Padrão: 0.0005 segundos
-  Máximo: 0.0048 segundos
+  Máximo: 0.0046 segundos
   Mínimo: 0.0004 segundos
 
 Apenas pesos:
   Média do Tempo de Inferência: 0.0005 segundos
   Mediana do Tempo de Inferência: 0.0005 segundos
-  Desvio Padrão: 0.0002 segundos
-  Máximo: 0.0015 segundos
+  Desvio Padrão: 0.0001 segundos
+  Máximo: 0.0010 segundos
   Mínimo: 0.0003 segundos
 
 Faixa dinâmica:
@@ -20,23 +20,23 @@ Faixa dinâmica:
   Mínimo: 0.0003 segundos
 
 Float 16:
-  Média do Tempo de Inferência: 0.0005 segundos
-  Mediana do Tempo de Inferência: 0.0005 segundos
+  Média do Tempo de Inferência: 0.0004 segundos
+  Mediana do Tempo de Inferência: 0.0004 segundos
   Desvio Padrão: 0.0001 segundos
-  Máximo: 0.0007 segundos
+  Máximo: 0.0005 segundos
   Mínimo: 0.0003 segundos
 
 Float 32:
-  Média do Tempo de Inferência: 0.0005 segundos
-  Mediana do Tempo de Inferência: 0.0005 segundos
+  Média do Tempo de Inferência: 0.0004 segundos
+  Mediana do Tempo de Inferência: 0.0004 segundos
   Desvio Padrão: 0.0001 segundos
-  Máximo: 0.0008 segundos
+  Máximo: 0.0006 segundos
   Mínimo: 0.0003 segundos
 
 Keras:
-  Média do Tempo de Inferência: 0.0591 segundos
-  Mediana do Tempo de Inferência: 0.0549 segundos
-  Desvio Padrão: 0.0338 segundos
-  Máximo: 0.3601 segundos
-  Mínimo: 0.0324 segundos
+  Média do Tempo de Inferência: 0.0544 segundos
+  Mediana do Tempo de Inferência: 0.0519 segundos
+  Desvio Padrão: 0.0246 segundos
+  Máximo: 0.2870 segundos
+  Mínimo: 0.0353 segundos
 
